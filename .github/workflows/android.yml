@@ -53,7 +53,7 @@ jobs:
 
       - name: Installing Libraries
         run: |
-          haxelib setup ~/haxelib
+          haxelib setup /home/runner/haxelib
           haxelib install hmm 
           haxelib run hmm install
       - name: Configure Android
